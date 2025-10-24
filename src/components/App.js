@@ -14,7 +14,7 @@ const App = () => {
         style={{ padding: "8px", fontSize: "16px" }}
       />
       <div style={{ marginTop: "20px", fontSize: "20px", fontWeight: "bold" }}>
-        {name && `Hello, ${name}!`}
+         {name && `Hello ${name}!`}
       </div>
     </div>
   )
